@@ -43,4 +43,8 @@ public class Stos {
         }
     }
 
+    public int size() {
+        return elementy.size();
+    }
+
 }
