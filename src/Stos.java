@@ -2,6 +2,8 @@ import java.util.ArrayList;
 import java.util.EmptyStackException;
 
 public class Stos {
+
+
     private ArrayList<Integer> elementy = new ArrayList<>();
     private int pojemnosc;
 
@@ -31,7 +33,7 @@ public class Stos {
         }
     }
 
-    public void cler() {
+    public void clear() {
         elementy.clear();
     }
 
@@ -47,4 +49,9 @@ public class Stos {
         return elementy.size();
     }
 
+
+    @Override
+    public String toString() {
+        return elementy.toString();
+    }
 }
